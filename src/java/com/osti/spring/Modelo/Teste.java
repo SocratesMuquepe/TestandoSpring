@@ -5,37 +5,38 @@
  */
 package com.osti.spring.Modelo;
 
+import java.util.Date;
+
 /**
  *
  * @author Samuel Mavungo
  */
 public class Teste {
-    private String Tituilo;
-    private int Numero, Data;
+    private String tituilo;
+    private int numero;
+    Date data;
 
     public String getTituilo() {
-        return Tituilo;
+        return tituilo;
     }
 
-    public void setTituilo(String Tituilo) {
-        this.Tituilo = Tituilo;
+    public void setTituilo(String tituilo) {
+        this.tituilo = tituilo;
     }
 
     public int getNumero() {
-        return Numero;
+        return numero;
     }
 
-    public void setNumero(int Numero) {
-        this.Numero = Numero;
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
-    public int getData() {
-        return Data;
-    }
+  public Date getData(){
+      return data;
+  }
 
-    public void setData(int Data) {
-        this.Data = Data;
+    public void setData(Date data){
+        this.data = data;
     }
-
-    
 }
