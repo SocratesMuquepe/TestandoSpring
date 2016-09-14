@@ -13,5 +13,6 @@
     </head>
     <body>
         <h1>Olá Spring MVC!</h1>
+          <a href="<%=request.getContextPath()%>/">Inicio</a>
     </body>
 </html>

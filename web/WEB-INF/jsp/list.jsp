@@ -18,6 +18,6 @@
             <p>Name: <b>${person.name}</b></p>
             <p>Age: <b>${person.age}</b></p>
         </c:forEach>
-       
+         <a href="<%=request.getContextPath()%>/">Inicio</a>
     </body>
 </html>
